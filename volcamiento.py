@@ -1,3 +1,6 @@
-class Volcamiento
+class Volcamiento:
+    import numpy as np
+    ka=np.tan(np.deg2rad(45-(30/2)))**2
 
-import numpy as np
+
+    print((ka))
